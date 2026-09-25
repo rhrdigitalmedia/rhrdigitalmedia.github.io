@@ -66,6 +66,10 @@
     footer{background:#f4f7fb;border-top:1px solid var(--line);padding:42px 0}.footer-inner{display:flex;align-items:center;justify-content:space-between;gap:25px;flex-wrap:wrap}.footer-brand{font-weight:900;color:var(--navy)}.footer-brand small{display:block;font-weight:600;color:#75839a}.footer-links{display:flex;gap:18px;font-size:.88rem;font-weight:750}.copyright{width:100%;margin:0;color:#7a879b;font-size:.78rem}
     @media(max-width:980px){.menu{display:block}nav{display:none;position:absolute;top:82px;left:20px;right:20px;padding:18px;background:#fff;border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow);flex-direction:column;align-items:stretch}nav.open{display:flex}.hero{grid-template-columns:1fr;min-height:auto;padding:58px 0}.hero-card{order:-1;max-width:580px;margin:auto;width:100%}.questions{grid-template-columns:repeat(2,1fr)}.cards{grid-template-columns:repeat(2,1fr)}.offer-panel,.about-grid{grid-template-columns:1fr}.portrait-card{min-height:390px}.cta-inner{align-items:flex-start;flex-direction:column}.payment-card{grid-template-columns:1fr}}
     @media(max-width:620px){.shell{width:min(100% - 28px,1180px)}.header-inner{height:72px}.brand-copy small{display:none}nav{top:72px}.hero{padding:38px 0}.hero-card{padding:25px 18px}.house-logo{height:185px}.house-roof{width:170px;height:118px;border-width:20px;top:8px}.house-chimney{width:27px;height:50px;right:65px;top:20px}.rhr-word{font-size:5rem;margin-top:82px}.questions,.cards{grid-template-columns:1fr}.q{min-height:auto}.q b{margin-bottom:17px}.offer{padding:66px 0}.offer-panel{padding:27px 21px}.portrait-card{min-height:350px;padding:30px 25px}.payment{padding:60px 0}.payment-card{padding:27px 20px}}
+      @keyframes rhrFloat{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-14px) scale(1.018)}}
+    .hero-logo img{animation:rhrFloat 4.8s ease-in-out infinite;will-change:transform;transform-origin:center center}
+    .hero-logo img:hover{animation-duration:2.2s}
+    @media (prefers-reduced-motion: reduce){.hero-logo img{animation:none}}
   </style>
 </head>
 <body>
